@@ -1,0 +1,141 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Login Container & Box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Logo and Header */
+.logo {
+    margin-bottom: 30px;
+}
+
+.logo .fas {
+    font-size: 60px;
+    color: #3f51b5;
+    margin-bottom: 15px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.logo p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Form and Input Groups */
+#loginForm {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #3f51b5;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #303f9f;
+}
+
+/* Demo Accounts Section */
+.demo-accounts {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.demo-accounts p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.demo-accounts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.demo-accounts li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.demo-accounts .role {
+    font-weight: 600;
+    color: #333;
+    width: 60px;
+    display: inline-block;
+}
+
+.demo-accounts .user {
+    color: #3f51b5;
+    font-weight: 500;
+}
+
+.demo-accounts .pass {
+    color: #888;
+}
